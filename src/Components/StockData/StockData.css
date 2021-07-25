@@ -1,0 +1,23 @@
+.stockContainer {
+  background: linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246))
+    rgb(255, 255, 255) !important;
+  border: none !important;
+  padding-bottom: 8em !important;
+  font-family: pSansM;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 15px;
+  position: absolute;
+  width: 100%;
+  top: 3.4em;
+}
+.stockdisplay {
+  text-align: center;
+}
+.stockdisplay > :first-child {
+  font-size: 1rem;
+}
+.stockdisplay > :last-child {
+  font-size: 1.3rem;
+}

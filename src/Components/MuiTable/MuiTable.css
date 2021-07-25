@@ -1,0 +1,72 @@
+.bitcoinimages {
+  width: 30px;
+  height: 30px;
+  margin-right: 7px;
+}
+.nameView {
+  display: flex;
+  align-items: center;
+  font-family: pSansR;
+}
+.bitcoinData > :first-child {
+  font-family: pSansR;
+}
+.bitcoinData > :last-child {
+  font-family: pSansL;
+  font-size: 12px;
+}
+.negativeprice {
+  color: red;
+  font-family: pSansR;
+  text-align: center;
+}
+.dataTable th {
+  padding: 4px !important;
+}
+.rank {
+  margin-left: 12px;
+}
+.positiveprice {
+  color: rgb(24, 198, 131);
+  font-family: pSansR;
+  text-align: center;
+}
+.MuiButton-label {
+  font-family: pSansL;
+}
+
+.dataTable {
+  margin: auto;
+  position: relative;
+  margin: auto;
+  display: flex;
+  top: 9em;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  width: 86%;
+  /* box-shadow: rgb(0 0 0 / 40%) 0px 2px 15px -3px !important; */
+}
+.dataTable > :first-child {
+  box-shadow: rgb(0 0 0 / 40%) 0px 2px 15px -3px !important;
+}
+.dataTable tr {
+  cursor: pointer;
+}
+.showmore {
+  background-color: rgb(24, 198, 131) !important;
+  font-family: pSansB;
+  border-radius: 10em;
+  box-shadow: rgb(0 0 0 / 40%) 0px 2px 15px -3px;
+  border: none;
+  padding: 0.78571429em 1.5em;
+  color: white;
+  margin: 10px auto 20px auto;
+  display: flex;
+  cursor: pointer;
+}
+.dataTable .MuiTableCell-root {
+  padding: 8px;
+}
